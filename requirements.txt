@@ -1,0 +1,7 @@
+requests
+aiohttp
+more-itertools
+SQLAlchemy==1.4.48
+asyncpg
+python-dotenv
+greenlet

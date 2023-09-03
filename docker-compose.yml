@@ -1,0 +1,9 @@
+version: '24.0.5'
+
+services:
+  db:
+    image: postgres:15.0-alpine
+    ports:
+      - 5431:5432
+    env_file:
+      - ./.env
